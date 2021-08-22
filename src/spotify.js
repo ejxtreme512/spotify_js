@@ -20,6 +20,7 @@ const scopes = [
     "user-read-currently-playing",
     "playlist-read-private",
     "playlist-read-collaborative",
+    "streaming",
 ]
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`;    
 
